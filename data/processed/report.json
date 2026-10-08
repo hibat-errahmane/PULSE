@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "start": "2017-09-24",
+    "end": "2017-09-24",
+    "severity": "MEDIUM",
+    "kind": "systemic",
+    "headline": "Late deliveries rose from 3.11% to 8.5% (1024 orders).",
+    "top_region": "RS",
+    "top_region_share_pct": 21.5,
+    "repeat_sellers": [
+      "4a3ca9315b744ce9f8e9374361493884",
+      "1f50f920176fa81dab994f9023523100"
+    ],
+    "reliability": "low volume, watch only",
+    "recommendation": "Problem is broad across sellers, regions and categories. Look at network-wide capacity (carrier load, seasonal peak) before blaming any seller."
+  },
+  {
+    "id": 2,
+    "start": "2017-10-15",
+    "end": "2017-10-15",
+    "severity": "LOW",
+    "kind": "hotspot",
+    "headline": "Late deliveries rose from 3.77% to 6.58% (897 orders).",
+    "top_region": "BA",
+    "top_region_share_pct": 30.4,
+    "repeat_sellers": [
+      "4a3ca9315b744ce9f8e9374361493884"
+    ],
+    "reliability": "low volume, watch only",
+    "recommendation": "Problem is concentrated but not exclusive. Start with BA, then review overall capacity."
+  },
+  {
+    "id": 3,
+    "start": "2017-11-12",
+    "end": "2017-11-12",
+    "severity": "LOW",
+    "kind": "mixed",
+    "headline": "Late deliveries rose from 4.43% to 5.63% (942 orders).",
+    "top_region": "GO",
+    "top_region_share_pct": 14.6,
+    "repeat_sellers": [
+      "1f50f920176fa81dab994f9023523100"
+    ],
+    "reliability": "low volume, watch only",
+    "recommendation": "No clear single cause. Keep monitoring."
+  },
+  {
+    "id": 4,
+    "start": "2017-12-17",
+    "end": "2018-01-14",
+    "severity": "HIGH",
+    "kind": "systemic",
+    "headline": "Late deliveries rose from 5.08% to 14.5% (7317 orders).",
+    "top_region": "RJ",
+    "top_region_share_pct": 37.1,
+    "repeat_sellers": [
+      "4a3ca9315b744ce9f8e9374361493884",
+      "1f50f920176fa81dab994f9023523100"
+    ],
+    "reliability": "solid sample",
+    "recommendation": "Problem is broad across sellers, regions and categories. Look at network-wide capacity (carrier load, seasonal peak) before blaming any seller. RJ is the biggest hotspot (37% of excess late orders)."
+  },
+  {
+    "id": 5,
+    "start": "2018-03-25",
+    "end": "2018-04-08",
+    "severity": "MEDIUM",
+    "kind": "systemic",
+    "headline": "Late deliveries rose from 9.66% to 21.95% (5021 orders).",
+    "top_region": "SP",
+    "top_region_share_pct": 31.0,
+    "repeat_sellers": [],
+    "reliability": "solid sample",
+    "recommendation": "Problem is broad across sellers, regions and categories. Look at network-wide capacity (carrier load, seasonal peak) before blaming any seller. SP is the biggest hotspot (31% of excess late orders)."
+  },
+  {
+    "id": 6,
+    "start": "2018-05-27",
+    "end": "2018-06-03",
+    "severity": "MEDIUM",
+    "kind": "no_late_signal",
+    "headline": "Anomaly not driven by late deliveries.",
+    "recommendation": "Review other signals (orders, review scores) for this period."
+  },
+  {
+    "id": 7,
+    "start": "2018-08-19",
+    "end": "2018-08-19",
+    "severity": "LOW",
+    "kind": "localized",
+    "headline": "Late deliveries rose from 6.01% to 14.12% (1983 orders).",
+    "top_region": "SP",
+    "top_region_share_pct": 92.8,
+    "repeat_sellers": [],
+    "reliability": "solid sample",
+    "recommendation": "Problem is concentrated in one area. Check carriers and logistics for SP first."
+  }
+]

@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Data and models (keep folders, ignore contents)
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+dump.txt

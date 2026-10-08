@@ -1,0 +1,5 @@
+,valid_starts,demand_30,fulfil_weak,fulfil_strong
+A_orders,62,41.9,0.0,0.0
+B_orders+late,51,43.1,31.4,96.1
+C_orders+score,53,45.3,26.4,83.0
+D_all,44,38.6,43.2,100.0

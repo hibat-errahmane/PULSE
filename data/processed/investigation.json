@@ -1,0 +1,1237 @@
+[
+  {
+    "id": 1,
+    "start": "2017-09-24",
+    "end": "2017-09-24",
+    "investigated": true,
+    "sellers": {
+      "eligible_groups": 6,
+      "coverage_pct": 15,
+      "flagged_groups": 3,
+      "strongest_abnormal_change": [
+        {
+          "group": "4a3ca9315b744ce9f8e9374361493884",
+          "n_event": 25,
+          "late_base_pct": 1.7,
+          "late_event_pct": 20.0,
+          "change_pp": 18.3,
+          "contribution_pct": 5.7,
+          "excess_share_pct": 6.2,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "cc419e0650a3c5ba77189a1882b7556a",
+          "n_event": 40,
+          "late_base_pct": 2.3,
+          "late_event_pct": 7.5,
+          "change_pp": 5.2,
+          "contribution_pct": 3.4,
+          "excess_share_pct": 2.8,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "1f50f920176fa81dab994f9023523100",
+          "n_event": 20,
+          "late_base_pct": 1.1,
+          "late_event_pct": 10.0,
+          "change_pp": 8.9,
+          "contribution_pct": 2.3,
+          "excess_share_pct": 2.4,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "4a3ca9315b744ce9f8e9374361493884",
+          "n_event": 25,
+          "late_base_pct": 1.7,
+          "late_event_pct": 20.0,
+          "change_pp": 18.3,
+          "contribution_pct": 5.7,
+          "excess_share_pct": 6.2,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "2a1348e9addc1af5aaa619b1a3679d6b",
+          "n_event": 5,
+          "late_base_pct": 50.0,
+          "late_event_pct": 80.0,
+          "change_pp": 30.0,
+          "contribution_pct": 4.5,
+          "excess_share_pct": 2.0,
+          "status": "insufficient"
+        },
+        {
+          "group": "4869f7a5dfa277a7dca6462dcf3b52b2",
+          "n_event": 10,
+          "late_base_pct": 4.0,
+          "late_event_pct": 40.0,
+          "change_pp": 36.0,
+          "contribution_pct": 4.5,
+          "excess_share_pct": 4.9,
+          "status": "low sample"
+        }
+      ]
+    },
+    "regions": {
+      "eligible_groups": 12,
+      "coverage_pct": 93,
+      "flagged_groups": 9,
+      "strongest_abnormal_change": [
+        {
+          "group": "RS",
+          "n_event": 64,
+          "late_base_pct": 2.5,
+          "late_event_pct": 21.9,
+          "change_pp": 19.4,
+          "contribution_pct": 15.9,
+          "excess_share_pct": 21.5,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "MG",
+          "n_event": 142,
+          "late_base_pct": 1.4,
+          "late_event_pct": 7.0,
+          "change_pp": 5.6,
+          "contribution_pct": 11.4,
+          "excess_share_pct": 13.8,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "BA",
+          "n_event": 38,
+          "late_base_pct": 5.0,
+          "late_event_pct": 18.4,
+          "change_pp": 13.4,
+          "contribution_pct": 8.0,
+          "excess_share_pct": 8.8,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "SP",
+          "n_event": 407,
+          "late_base_pct": 2.9,
+          "late_event_pct": 3.7,
+          "change_pp": 0.8,
+          "contribution_pct": 17.0,
+          "excess_share_pct": 5.7,
+          "status": "normal range"
+        },
+        {
+          "group": "RS",
+          "n_event": 64,
+          "late_base_pct": 2.5,
+          "late_event_pct": 21.9,
+          "change_pp": 19.4,
+          "contribution_pct": 15.9,
+          "excess_share_pct": 21.5,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "MG",
+          "n_event": 142,
+          "late_base_pct": 1.4,
+          "late_event_pct": 7.0,
+          "change_pp": 5.6,
+          "contribution_pct": 11.4,
+          "excess_share_pct": 13.8,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "categories": {
+      "eligible_groups": 16,
+      "coverage_pct": 86,
+      "flagged_groups": 9,
+      "strongest_abnormal_change": [
+        {
+          "group": "furniture_decor",
+          "n_event": 69,
+          "late_base_pct": 3.2,
+          "late_event_pct": 15.9,
+          "change_pp": 12.8,
+          "contribution_pct": 12.6,
+          "excess_share_pct": 15.1,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "bed_bath_table",
+          "n_event": 118,
+          "late_base_pct": 2.1,
+          "late_event_pct": 8.5,
+          "change_pp": 6.4,
+          "contribution_pct": 11.5,
+          "excess_share_pct": 13.0,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "health_beauty",
+          "n_event": 86,
+          "late_base_pct": 3.7,
+          "late_event_pct": 9.3,
+          "change_pp": 5.6,
+          "contribution_pct": 9.2,
+          "excess_share_pct": 8.3,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "furniture_decor",
+          "n_event": 69,
+          "late_base_pct": 3.2,
+          "late_event_pct": 15.9,
+          "change_pp": 12.8,
+          "contribution_pct": 12.6,
+          "excess_share_pct": 15.1,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "bed_bath_table",
+          "n_event": 118,
+          "late_base_pct": 2.1,
+          "late_event_pct": 8.5,
+          "change_pp": 6.4,
+          "contribution_pct": 11.5,
+          "excess_share_pct": 13.0,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "health_beauty",
+          "n_event": 86,
+          "late_base_pct": 3.7,
+          "late_event_pct": 9.3,
+          "change_pp": 5.6,
+          "contribution_pct": 9.2,
+          "excess_share_pct": 8.3,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "pooled_late_rate_pct": {
+      "baseline": 3.11,
+      "event": 8.5,
+      "delivered_orders_event": 1024
+    }
+  },
+  {
+    "id": 2,
+    "start": "2017-10-15",
+    "end": "2017-10-15",
+    "investigated": true,
+    "sellers": {
+      "eligible_groups": 4,
+      "coverage_pct": 10,
+      "flagged_groups": 2,
+      "strongest_abnormal_change": [
+        {
+          "group": "4a3ca9315b744ce9f8e9374361493884",
+          "n_event": 22,
+          "late_base_pct": 3.7,
+          "late_event_pct": 13.6,
+          "change_pp": 9.9,
+          "contribution_pct": 5.0,
+          "excess_share_pct": 4.4,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "3d871de0142ce09b7081e2b9d1733cb1",
+          "n_event": 20,
+          "late_base_pct": 1.2,
+          "late_event_pct": 10.0,
+          "change_pp": 8.8,
+          "contribution_pct": 3.3,
+          "excess_share_pct": 3.5,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "4a3ca9315b744ce9f8e9374361493884",
+          "n_event": 22,
+          "late_base_pct": 3.7,
+          "late_event_pct": 13.6,
+          "change_pp": 9.9,
+          "contribution_pct": 5.0,
+          "excess_share_pct": 4.4,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "4869f7a5dfa277a7dca6462dcf3b52b2",
+          "n_event": 16,
+          "late_base_pct": 5.3,
+          "late_event_pct": 12.5,
+          "change_pp": 7.2,
+          "contribution_pct": 3.3,
+          "excess_share_pct": 2.3,
+          "status": "low sample"
+        },
+        {
+          "group": "3d871de0142ce09b7081e2b9d1733cb1",
+          "n_event": 20,
+          "late_base_pct": 1.2,
+          "late_event_pct": 10.0,
+          "change_pp": 8.8,
+          "contribution_pct": 3.3,
+          "excess_share_pct": 3.5,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "regions": {
+      "eligible_groups": 9,
+      "coverage_pct": 87,
+      "flagged_groups": 4,
+      "strongest_abnormal_change": [
+        {
+          "group": "BA",
+          "n_event": 40,
+          "late_base_pct": 6.4,
+          "late_event_pct": 30.0,
+          "change_pp": 23.6,
+          "contribution_pct": 20.0,
+          "excess_share_pct": 30.4,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "RJ",
+          "n_event": 125,
+          "late_base_pct": 3.9,
+          "late_event_pct": 8.0,
+          "change_pp": 4.1,
+          "contribution_pct": 16.7,
+          "excess_share_pct": 16.6,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "SC",
+          "n_event": 46,
+          "late_base_pct": 4.9,
+          "late_event_pct": 15.2,
+          "change_pp": 10.3,
+          "contribution_pct": 11.7,
+          "excess_share_pct": 15.2,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "BA",
+          "n_event": 40,
+          "late_base_pct": 6.4,
+          "late_event_pct": 30.0,
+          "change_pp": 23.6,
+          "contribution_pct": 20.0,
+          "excess_share_pct": 30.4,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "RJ",
+          "n_event": 125,
+          "late_base_pct": 3.9,
+          "late_event_pct": 8.0,
+          "change_pp": 4.1,
+          "contribution_pct": 16.7,
+          "excess_share_pct": 16.6,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "SP",
+          "n_event": 336,
+          "late_base_pct": 2.9,
+          "late_event_pct": 3.0,
+          "change_pp": 0.1,
+          "contribution_pct": 16.7,
+          "excess_share_pct": 0.7,
+          "status": "normal range"
+        }
+      ]
+    },
+    "categories": {
+      "eligible_groups": 15,
+      "coverage_pct": 84,
+      "flagged_groups": 3,
+      "strongest_abnormal_change": [
+        {
+          "group": "sports_leisure",
+          "n_event": 96,
+          "late_base_pct": 4.1,
+          "late_event_pct": 9.4,
+          "change_pp": 5.3,
+          "contribution_pct": 15.3,
+          "excess_share_pct": 16.8,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "bed_bath_table",
+          "n_event": 81,
+          "late_base_pct": 2.9,
+          "late_event_pct": 7.4,
+          "change_pp": 4.5,
+          "contribution_pct": 10.2,
+          "excess_share_pct": 11.9,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "housewares",
+          "n_event": 45,
+          "late_base_pct": 2.9,
+          "late_event_pct": 8.9,
+          "change_pp": 6.0,
+          "contribution_pct": 6.8,
+          "excess_share_pct": 8.9,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "sports_leisure",
+          "n_event": 96,
+          "late_base_pct": 4.1,
+          "late_event_pct": 9.4,
+          "change_pp": 5.3,
+          "contribution_pct": 15.3,
+          "excess_share_pct": 16.8,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "health_beauty",
+          "n_event": 78,
+          "late_base_pct": 4.9,
+          "late_event_pct": 9.0,
+          "change_pp": 4.1,
+          "contribution_pct": 11.9,
+          "excess_share_pct": 10.6,
+          "status": "normal range"
+        },
+        {
+          "group": "bed_bath_table",
+          "n_event": 81,
+          "late_base_pct": 2.9,
+          "late_event_pct": 7.4,
+          "change_pp": 4.5,
+          "contribution_pct": 10.2,
+          "excess_share_pct": 11.9,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "pooled_late_rate_pct": {
+      "baseline": 3.77,
+      "event": 6.58,
+      "delivered_orders_event": 897
+    }
+  },
+  {
+    "id": 3,
+    "start": "2017-11-12",
+    "end": "2017-11-12",
+    "investigated": true,
+    "sellers": {
+      "eligible_groups": 4,
+      "coverage_pct": 10,
+      "flagged_groups": 1,
+      "strongest_abnormal_change": [
+        {
+          "group": "1f50f920176fa81dab994f9023523100",
+          "n_event": 24,
+          "late_base_pct": 3.1,
+          "late_event_pct": 12.5,
+          "change_pp": 9.4,
+          "contribution_pct": 5.7,
+          "excess_share_pct": 5.3,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "1f50f920176fa81dab994f9023523100",
+          "n_event": 24,
+          "late_base_pct": 3.1,
+          "late_event_pct": 12.5,
+          "change_pp": 9.4,
+          "contribution_pct": 5.7,
+          "excess_share_pct": 5.3,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "48436dade18ac8b2bce089ec2a041202",
+          "n_event": 7,
+          "late_base_pct": 6.5,
+          "late_event_pct": 42.9,
+          "change_pp": 36.4,
+          "contribution_pct": 5.7,
+          "excess_share_pct": 6.0,
+          "status": "insufficient"
+        },
+        {
+          "group": "4a3ca9315b744ce9f8e9374361493884",
+          "n_event": 26,
+          "late_base_pct": 3.9,
+          "late_event_pct": 7.7,
+          "change_pp": 3.7,
+          "contribution_pct": 3.8,
+          "excess_share_pct": 2.3,
+          "status": "normal range"
+        }
+      ]
+    },
+    "regions": {
+      "eligible_groups": 10,
+      "coverage_pct": 89,
+      "flagged_groups": 2,
+      "strongest_abnormal_change": [
+        {
+          "group": "GO",
+          "n_event": 26,
+          "late_base_pct": 4.5,
+          "late_event_pct": 15.4,
+          "change_pp": 10.8,
+          "contribution_pct": 7.5,
+          "excess_share_pct": 14.6,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "PR",
+          "n_event": 50,
+          "late_base_pct": 0.8,
+          "late_event_pct": 4.0,
+          "change_pp": 3.2,
+          "contribution_pct": 3.8,
+          "excess_share_pct": 8.4,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "SP",
+          "n_event": 362,
+          "late_base_pct": 3.2,
+          "late_event_pct": 4.7,
+          "change_pp": 1.5,
+          "contribution_pct": 32.1,
+          "excess_share_pct": 29.0,
+          "status": "normal range"
+        },
+        {
+          "group": "RJ",
+          "n_event": 132,
+          "late_base_pct": 4.7,
+          "late_event_pct": 6.1,
+          "change_pp": 1.3,
+          "contribution_pct": 15.1,
+          "excess_share_pct": 9.1,
+          "status": "normal range"
+        },
+        {
+          "group": "BA",
+          "n_event": 36,
+          "late_base_pct": 11.6,
+          "late_event_pct": 16.7,
+          "change_pp": 5.0,
+          "contribution_pct": 11.3,
+          "excess_share_pct": 9.4,
+          "status": "normal range"
+        }
+      ]
+    },
+    "categories": {
+      "eligible_groups": 18,
+      "coverage_pct": 90,
+      "flagged_groups": 4,
+      "strongest_abnormal_change": [
+        {
+          "group": "bed_bath_table",
+          "n_event": 118,
+          "late_base_pct": 3.6,
+          "late_event_pct": 8.5,
+          "change_pp": 4.9,
+          "contribution_pct": 18.9,
+          "excess_share_pct": 24.0,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "cool_stuff",
+          "n_event": 65,
+          "late_base_pct": 3.3,
+          "late_event_pct": 10.8,
+          "change_pp": 7.5,
+          "contribution_pct": 13.2,
+          "excess_share_pct": 20.2,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "watches_gifts",
+          "n_event": 59,
+          "late_base_pct": 3.5,
+          "late_event_pct": 8.5,
+          "change_pp": 5.0,
+          "contribution_pct": 9.4,
+          "excess_share_pct": 12.4,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "bed_bath_table",
+          "n_event": 118,
+          "late_base_pct": 3.6,
+          "late_event_pct": 8.5,
+          "change_pp": 4.9,
+          "contribution_pct": 18.9,
+          "excess_share_pct": 24.0,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "cool_stuff",
+          "n_event": 65,
+          "late_base_pct": 3.3,
+          "late_event_pct": 10.8,
+          "change_pp": 7.5,
+          "contribution_pct": 13.2,
+          "excess_share_pct": 20.2,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "watches_gifts",
+          "n_event": 59,
+          "late_base_pct": 3.5,
+          "late_event_pct": 8.5,
+          "change_pp": 5.0,
+          "contribution_pct": 9.4,
+          "excess_share_pct": 12.4,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "pooled_late_rate_pct": {
+      "baseline": 4.43,
+      "event": 5.63,
+      "delivered_orders_event": 942
+    }
+  },
+  {
+    "id": 4,
+    "start": "2017-12-17",
+    "end": "2018-01-14",
+    "investigated": true,
+    "sellers": {
+      "eligible_groups": 61,
+      "coverage_pct": 48,
+      "flagged_groups": 37,
+      "strongest_abnormal_change": [
+        {
+          "group": "4a3ca9315b744ce9f8e9374361493884",
+          "n_event": 151,
+          "late_base_pct": 8.5,
+          "late_event_pct": 34.4,
+          "change_pp": 26.0,
+          "contribution_pct": 4.8,
+          "excess_share_pct": 4.7,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "1f50f920176fa81dab994f9023523100",
+          "n_event": 216,
+          "late_base_pct": 7.3,
+          "late_event_pct": 21.3,
+          "change_pp": 14.0,
+          "contribution_pct": 4.2,
+          "excess_share_pct": 3.6,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "1025f0e2d44d7041d6cf58b6550e0bfa",
+          "n_event": 71,
+          "late_base_pct": 3.3,
+          "late_event_pct": 39.4,
+          "change_pp": 36.1,
+          "contribution_pct": 2.6,
+          "excess_share_pct": 3.1,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "4a3ca9315b744ce9f8e9374361493884",
+          "n_event": 151,
+          "late_base_pct": 8.5,
+          "late_event_pct": 34.4,
+          "change_pp": 26.0,
+          "contribution_pct": 4.8,
+          "excess_share_pct": 4.7,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "1f50f920176fa81dab994f9023523100",
+          "n_event": 216,
+          "late_base_pct": 7.3,
+          "late_event_pct": 21.3,
+          "change_pp": 14.0,
+          "contribution_pct": 4.2,
+          "excess_share_pct": 3.6,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "1025f0e2d44d7041d6cf58b6550e0bfa",
+          "n_event": 71,
+          "late_base_pct": 3.3,
+          "late_event_pct": 39.4,
+          "change_pp": 36.1,
+          "contribution_pct": 2.6,
+          "excess_share_pct": 3.1,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "regions": {
+      "eligible_groups": 22,
+      "coverage_pct": 100,
+      "flagged_groups": 17,
+      "strongest_abnormal_change": [
+        {
+          "group": "RJ",
+          "n_event": 1032,
+          "late_base_pct": 6.6,
+          "late_event_pct": 32.3,
+          "change_pp": 25.7,
+          "contribution_pct": 30.5,
+          "excess_share_pct": 37.1,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "SP",
+          "n_event": 2901,
+          "late_base_pct": 3.9,
+          "late_event_pct": 7.3,
+          "change_pp": 3.4,
+          "contribution_pct": 19.3,
+          "excess_share_pct": 13.7,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "MG",
+          "n_event": 982,
+          "late_base_pct": 1.9,
+          "late_event_pct": 9.6,
+          "change_pp": 7.7,
+          "contribution_pct": 8.6,
+          "excess_share_pct": 10.6,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "RJ",
+          "n_event": 1032,
+          "late_base_pct": 6.6,
+          "late_event_pct": 32.3,
+          "change_pp": 25.7,
+          "contribution_pct": 30.5,
+          "excess_share_pct": 37.1,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "SP",
+          "n_event": 2901,
+          "late_base_pct": 3.9,
+          "late_event_pct": 7.3,
+          "change_pp": 3.4,
+          "contribution_pct": 19.3,
+          "excess_share_pct": 13.7,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "MG",
+          "n_event": 982,
+          "late_base_pct": 1.9,
+          "late_event_pct": 9.6,
+          "change_pp": 7.7,
+          "contribution_pct": 8.6,
+          "excess_share_pct": 10.6,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "categories": {
+      "eligible_groups": 33,
+      "coverage_pct": 97,
+      "flagged_groups": 25,
+      "strongest_abnormal_change": [
+        {
+          "group": "bed_bath_table",
+          "n_event": 740,
+          "late_base_pct": 4.7,
+          "late_event_pct": 22.0,
+          "change_pp": 17.3,
+          "contribution_pct": 15.4,
+          "excess_share_pct": 18.3,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "furniture_decor",
+          "n_event": 492,
+          "late_base_pct": 7.3,
+          "late_event_pct": 17.3,
+          "change_pp": 10.0,
+          "contribution_pct": 8.0,
+          "excess_share_pct": 7.0,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "garden_tools",
+          "n_event": 363,
+          "late_base_pct": 4.7,
+          "late_event_pct": 17.4,
+          "change_pp": 12.6,
+          "contribution_pct": 5.9,
+          "excess_share_pct": 6.6,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "bed_bath_table",
+          "n_event": 740,
+          "late_base_pct": 4.7,
+          "late_event_pct": 22.0,
+          "change_pp": 17.3,
+          "contribution_pct": 15.4,
+          "excess_share_pct": 18.3,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "furniture_decor",
+          "n_event": 492,
+          "late_base_pct": 7.3,
+          "late_event_pct": 17.3,
+          "change_pp": 10.0,
+          "contribution_pct": 8.0,
+          "excess_share_pct": 7.0,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "health_beauty",
+          "n_event": 576,
+          "late_base_pct": 5.8,
+          "late_event_pct": 12.3,
+          "change_pp": 6.5,
+          "contribution_pct": 6.7,
+          "excess_share_pct": 5.4,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "pooled_late_rate_pct": {
+      "baseline": 5.08,
+      "event": 14.5,
+      "delivered_orders_event": 7317
+    }
+  },
+  {
+    "id": 5,
+    "start": "2018-03-25",
+    "end": "2018-04-08",
+    "investigated": true,
+    "sellers": {
+      "eligible_groups": 45,
+      "coverage_pct": 37,
+      "flagged_groups": 24,
+      "strongest_abnormal_change": [
+        {
+          "group": "4869f7a5dfa277a7dca6462dcf3b52b2",
+          "n_event": 89,
+          "late_base_pct": 12.2,
+          "late_event_pct": 39.3,
+          "change_pp": 27.1,
+          "contribution_pct": 3.1,
+          "excess_share_pct": 3.1,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "88460e8ebdecbfecb5f9601833981930",
+          "n_event": 44,
+          "late_base_pct": 15.0,
+          "late_event_pct": 68.2,
+          "change_pp": 53.2,
+          "contribution_pct": 2.7,
+          "excess_share_pct": 3.0,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "8b321bb669392f5163d04c59e235e066",
+          "n_event": 111,
+          "late_base_pct": 7.2,
+          "late_event_pct": 27.9,
+          "change_pp": 20.7,
+          "contribution_pct": 2.8,
+          "excess_share_pct": 2.9,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "4a3ca9315b744ce9f8e9374361493884",
+          "n_event": 80,
+          "late_base_pct": 20.1,
+          "late_event_pct": 45.0,
+          "change_pp": 24.9,
+          "contribution_pct": 3.2,
+          "excess_share_pct": 2.5,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "4869f7a5dfa277a7dca6462dcf3b52b2",
+          "n_event": 89,
+          "late_base_pct": 12.2,
+          "late_event_pct": 39.3,
+          "change_pp": 27.1,
+          "contribution_pct": 3.1,
+          "excess_share_pct": 3.1,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "8b321bb669392f5163d04c59e235e066",
+          "n_event": 111,
+          "late_base_pct": 7.2,
+          "late_event_pct": 27.9,
+          "change_pp": 20.7,
+          "contribution_pct": 2.8,
+          "excess_share_pct": 2.9,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "regions": {
+      "eligible_groups": 19,
+      "coverage_pct": 99,
+      "flagged_groups": 16,
+      "strongest_abnormal_change": [
+        {
+          "group": "SP",
+          "n_event": 2291,
+          "late_base_pct": 5.1,
+          "late_event_pct": 13.7,
+          "change_pp": 8.6,
+          "contribution_pct": 28.0,
+          "excess_share_pct": 31.0,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "MG",
+          "n_event": 643,
+          "late_base_pct": 5.5,
+          "late_event_pct": 25.0,
+          "change_pp": 19.5,
+          "contribution_pct": 14.4,
+          "excess_share_pct": 19.8,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "RJ",
+          "n_event": 615,
+          "late_base_pct": 24.1,
+          "late_event_pct": 36.6,
+          "change_pp": 12.5,
+          "contribution_pct": 20.1,
+          "excess_share_pct": 12.1,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "SP",
+          "n_event": 2291,
+          "late_base_pct": 5.1,
+          "late_event_pct": 13.7,
+          "change_pp": 8.6,
+          "contribution_pct": 28.0,
+          "excess_share_pct": 31.0,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "RJ",
+          "n_event": 615,
+          "late_base_pct": 24.1,
+          "late_event_pct": 36.6,
+          "change_pp": 12.5,
+          "contribution_pct": 20.1,
+          "excess_share_pct": 12.1,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "MG",
+          "n_event": 643,
+          "late_base_pct": 5.5,
+          "late_event_pct": 25.0,
+          "change_pp": 19.5,
+          "contribution_pct": 14.4,
+          "excess_share_pct": 19.8,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "categories": {
+      "eligible_groups": 29,
+      "coverage_pct": 95,
+      "flagged_groups": 18,
+      "strongest_abnormal_change": [
+        {
+          "group": "computers_accessories",
+          "n_event": 538,
+          "late_base_pct": 6.4,
+          "late_event_pct": 25.3,
+          "change_pp": 18.9,
+          "contribution_pct": 12.3,
+          "excess_share_pct": 16.2,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "health_beauty",
+          "n_event": 434,
+          "late_base_pct": 7.7,
+          "late_event_pct": 26.7,
+          "change_pp": 19.1,
+          "contribution_pct": 10.5,
+          "excess_share_pct": 13.1,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "bed_bath_table",
+          "n_event": 482,
+          "late_base_pct": 12.8,
+          "late_event_pct": 28.0,
+          "change_pp": 15.2,
+          "contribution_pct": 12.3,
+          "excess_share_pct": 11.6,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "computers_accessories",
+          "n_event": 538,
+          "late_base_pct": 6.4,
+          "late_event_pct": 25.3,
+          "change_pp": 18.9,
+          "contribution_pct": 12.3,
+          "excess_share_pct": 16.2,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "bed_bath_table",
+          "n_event": 482,
+          "late_base_pct": 12.8,
+          "late_event_pct": 28.0,
+          "change_pp": 15.2,
+          "contribution_pct": 12.3,
+          "excess_share_pct": 11.6,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "health_beauty",
+          "n_event": 434,
+          "late_base_pct": 7.7,
+          "late_event_pct": 26.7,
+          "change_pp": 19.1,
+          "contribution_pct": 10.5,
+          "excess_share_pct": 13.1,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "pooled_late_rate_pct": {
+      "baseline": 9.66,
+      "event": 21.95,
+      "delivered_orders_event": 5021
+    }
+  },
+  {
+    "id": 6,
+    "start": "2018-05-27",
+    "end": "2018-06-03",
+    "investigated": false,
+    "reason": "Late-delivery signal was not flagged in this event, so the late-delivery drill-down does not apply."
+  },
+  {
+    "id": 7,
+    "start": "2018-08-19",
+    "end": "2018-08-19",
+    "investigated": true,
+    "sellers": {
+      "eligible_groups": 6,
+      "coverage_pct": 8,
+      "flagged_groups": 1,
+      "strongest_abnormal_change": [
+        {
+          "group": "16090f2ca825584b5a147ab24aa30c86",
+          "n_event": 21,
+          "late_base_pct": 6.7,
+          "late_event_pct": 38.1,
+          "change_pp": 31.4,
+          "contribution_pct": 2.8,
+          "excess_share_pct": 2.9,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "c70c1b0d8ca86052f45a432a38b73958",
+          "n_event": 15,
+          "late_base_pct": 6.7,
+          "late_event_pct": 73.3,
+          "change_pp": 66.6,
+          "contribution_pct": 3.9,
+          "excess_share_pct": 4.4,
+          "status": "low sample"
+        },
+        {
+          "group": "da8622b14eb17ae2831f4ac5b9dab84a",
+          "n_event": 17,
+          "late_base_pct": 5.6,
+          "late_event_pct": 47.1,
+          "change_pp": 41.4,
+          "contribution_pct": 2.8,
+          "excess_share_pct": 3.1,
+          "status": "low sample"
+        },
+        {
+          "group": "16090f2ca825584b5a147ab24aa30c86",
+          "n_event": 21,
+          "late_base_pct": 6.7,
+          "late_event_pct": 38.1,
+          "change_pp": 31.4,
+          "contribution_pct": 2.8,
+          "excess_share_pct": 2.9,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "regions": {
+      "eligible_groups": 12,
+      "coverage_pct": 94,
+      "flagged_groups": 1,
+      "strongest_abnormal_change": [
+        {
+          "group": "SP",
+          "n_event": 975,
+          "late_base_pct": 4.9,
+          "late_event_pct": 21.8,
+          "change_pp": 17.0,
+          "contribution_pct": 75.5,
+          "excess_share_pct": 92.8,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "SP",
+          "n_event": 975,
+          "late_base_pct": 4.9,
+          "late_event_pct": 21.8,
+          "change_pp": 17.0,
+          "contribution_pct": 75.5,
+          "excess_share_pct": 92.8,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "RJ",
+          "n_event": 239,
+          "late_base_pct": 6.1,
+          "late_event_pct": 7.1,
+          "change_pp": 1.0,
+          "contribution_pct": 6.0,
+          "excess_share_pct": 1.3,
+          "status": "normal range"
+        },
+        {
+          "group": "BA",
+          "n_event": 78,
+          "late_base_pct": 14.1,
+          "late_event_pct": 11.5,
+          "change_pp": -2.6,
+          "contribution_pct": 3.2,
+          "excess_share_pct": 0.0,
+          "status": "normal range"
+        }
+      ]
+    },
+    "categories": {
+      "eligible_groups": 21,
+      "coverage_pct": 87,
+      "flagged_groups": 14,
+      "strongest_abnormal_change": [
+        {
+          "group": "health_beauty",
+          "n_event": 228,
+          "late_base_pct": 9.0,
+          "late_event_pct": 20.6,
+          "change_pp": 11.6,
+          "contribution_pct": 16.8,
+          "excess_share_pct": 16.2,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "housewares",
+          "n_event": 169,
+          "late_base_pct": 5.6,
+          "late_event_pct": 14.2,
+          "change_pp": 8.6,
+          "contribution_pct": 8.6,
+          "excess_share_pct": 8.9,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "baby",
+          "n_event": 57,
+          "late_base_pct": 5.7,
+          "late_event_pct": 24.6,
+          "change_pp": 18.9,
+          "contribution_pct": 5.0,
+          "excess_share_pct": 6.6,
+          "status": "ABNORMAL"
+        }
+      ],
+      "highest_contribution": [
+        {
+          "group": "health_beauty",
+          "n_event": 228,
+          "late_base_pct": 9.0,
+          "late_event_pct": 20.6,
+          "change_pp": 11.6,
+          "contribution_pct": 16.8,
+          "excess_share_pct": 16.2,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "housewares",
+          "n_event": 169,
+          "late_base_pct": 5.6,
+          "late_event_pct": 14.2,
+          "change_pp": 8.6,
+          "contribution_pct": 8.6,
+          "excess_share_pct": 8.9,
+          "status": "ABNORMAL"
+        },
+        {
+          "group": "bed_bath_table",
+          "n_event": 165,
+          "late_base_pct": 4.8,
+          "late_event_pct": 10.9,
+          "change_pp": 6.2,
+          "contribution_pct": 6.4,
+          "excess_share_pct": 6.2,
+          "status": "ABNORMAL"
+        }
+      ]
+    },
+    "pooled_late_rate_pct": {
+      "baseline": 6.01,
+      "event": 14.12,
+      "delivered_orders_event": 1983
+    }
+  }
+]

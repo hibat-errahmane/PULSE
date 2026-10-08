@@ -1,0 +1,344 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "start": "2017-09-24",
+      "end": "2017-09-24",
+      "weeks": 1,
+      "severity": "MEDIUM",
+      "confidence": "LOW",
+      "flagged": [
+        "pct_late"
+      ],
+      "facts": {
+        "orders": {
+          "baseline": 949.0,
+          "event_mean": 994.0,
+          "change": 0.047,
+          "unit": "relative",
+          "peak_z": -0.6
+        },
+        "avg_score": {
+          "baseline": 4.21,
+          "event_mean": 4.16,
+          "change": -0.051,
+          "unit": "points",
+          "peak_z": 1.0
+        },
+        "pct_late": {
+          "baseline": 3.25,
+          "event_mean": 8.39,
+          "change": 5.14,
+          "unit": "percentage points",
+          "peak_z": 5.1
+        }
+      },
+      "hypothesis": "Late deliveries rose without a clear review-score drop.",
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
+      "context": {
+        "avg_score": {
+          "history_median": 4.12,
+          "gap_vs_history": 0.04,
+          "worse_than_history": false
+        },
+        "pct_late": {
+          "history_median": 3.47,
+          "gap_vs_history": 4.92,
+          "worse_than_history": false
+        }
+      }
+    },
+    {
+      "id": 2,
+      "start": "2017-10-15",
+      "end": "2017-10-15",
+      "weeks": 1,
+      "severity": "LOW",
+      "confidence": "LOW",
+      "flagged": [
+        "pct_late"
+      ],
+      "facts": {
+        "orders": {
+          "baseline": 974.0,
+          "event_mean": 1070.0,
+          "change": 0.099,
+          "unit": "relative",
+          "peak_z": -1.8
+        },
+        "avg_score": {
+          "baseline": 4.21,
+          "event_mean": 4.13,
+          "change": -0.082,
+          "unit": "points",
+          "peak_z": 1.6
+        },
+        "pct_late": {
+          "baseline": 3.32,
+          "event_mean": 6.61,
+          "change": 3.284,
+          "unit": "percentage points",
+          "peak_z": 3.3
+        }
+      },
+      "hypothesis": "Late deliveries rose without a clear review-score drop.",
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
+      "context": {
+        "avg_score": {
+          "history_median": 4.13,
+          "gap_vs_history": 0.0,
+          "worse_than_history": false
+        },
+        "pct_late": {
+          "history_median": 3.5,
+          "gap_vs_history": 3.11,
+          "worse_than_history": false
+        }
+      }
+    },
+    {
+      "id": 3,
+      "start": "2017-11-12",
+      "end": "2017-11-12",
+      "weeks": 1,
+      "severity": "LOW",
+      "confidence": "LOW",
+      "flagged": [
+        "avg_score",
+        "pct_late"
+      ],
+      "facts": {
+        "orders": {
+          "baseline": 996.5,
+          "event_mean": 1217.0,
+          "change": 0.221,
+          "unit": "relative",
+          "peak_z": -2.6
+        },
+        "avg_score": {
+          "baseline": 4.21,
+          "event_mean": 4.04,
+          "change": -0.169,
+          "unit": "points",
+          "peak_z": 3.0
+        },
+        "pct_late": {
+          "baseline": 3.47,
+          "event_mean": 5.53,
+          "change": 2.061,
+          "unit": "percentage points",
+          "peak_z": 2.1
+        }
+      },
+      "hypothesis": "Late deliveries rose and review scores fell together while orders did not drop; delivery problems may be hurting customer satisfaction.",
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
+      "context": {
+        "avg_score": {
+          "history_median": 4.13,
+          "gap_vs_history": -0.09,
+          "worse_than_history": false
+        },
+        "pct_late": {
+          "history_median": 3.53,
+          "gap_vs_history": 2.0,
+          "worse_than_history": false
+        }
+      }
+    },
+    {
+      "id": 4,
+      "start": "2017-12-17",
+      "end": "2018-01-14",
+      "weeks": 5,
+      "severity": "HIGH",
+      "confidence": "MEDIUM",
+      "flagged": [
+        "avg_score",
+        "pct_late"
+      ],
+      "facts": {
+        "orders": {
+          "baseline": 1108.5,
+          "event_mean": 1284.8,
+          "change": 0.159,
+          "unit": "relative",
+          "peak_z": 1.1
+        },
+        "avg_score": {
+          "baseline": 4.15,
+          "event_mean": 3.87,
+          "change": -0.273,
+          "unit": "points",
+          "peak_z": 6.2
+        },
+        "pct_late": {
+          "baseline": 5.09,
+          "event_mean": 15.09,
+          "change": 9.997,
+          "unit": "percentage points",
+          "peak_z": 7.0
+        }
+      },
+      "hypothesis": "Late deliveries rose and review scores fell together while orders did not drop; delivery problems may be hurting customer satisfaction.",
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
+      "context": {
+        "avg_score": {
+          "history_median": 4.13,
+          "gap_vs_history": -0.26,
+          "worse_than_history": true
+        },
+        "pct_late": {
+          "history_median": 3.75,
+          "gap_vs_history": 11.34,
+          "worse_than_history": true
+        }
+      }
+    },
+    {
+      "id": 5,
+      "start": "2018-03-25",
+      "end": "2018-04-08",
+      "weeks": 3,
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "flagged": [
+        "avg_score",
+        "pct_late"
+      ],
+      "facts": {
+        "orders": {
+          "baseline": 1619.0,
+          "event_mean": 1592.33,
+          "change": -0.016,
+          "unit": "relative",
+          "peak_z": 1.8
+        },
+        "avg_score": {
+          "baseline": 4.02,
+          "event_mean": 3.66,
+          "change": -0.356,
+          "unit": "points",
+          "peak_z": 4.2
+        },
+        "pct_late": {
+          "baseline": 8.55,
+          "event_mean": 21.73,
+          "change": 13.179,
+          "unit": "percentage points",
+          "peak_z": 2.8
+        }
+      },
+      "hypothesis": "Late deliveries rose and review scores fell together while orders did not drop; delivery problems may be hurting customer satisfaction.",
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
+      "context": {
+        "avg_score": {
+          "history_median": 4.1,
+          "gap_vs_history": -0.44,
+          "worse_than_history": true
+        },
+        "pct_late": {
+          "history_median": 4.39,
+          "gap_vs_history": 17.34,
+          "worse_than_history": true
+        }
+      }
+    },
+    {
+      "id": 6,
+      "start": "2018-05-27",
+      "end": "2018-06-03",
+      "weeks": 2,
+      "severity": "MEDIUM",
+      "confidence": "LOW",
+      "flagged": [
+        "orders"
+      ],
+      "facts": {
+        "orders": {
+          "baseline": 1674.0,
+          "event_mean": 1018.5,
+          "change": -0.392,
+          "unit": "relative",
+          "peak_z": 7.1
+        },
+        "avg_score": {
+          "baseline": 3.92,
+          "event_mean": 4.03,
+          "change": 0.108,
+          "unit": "points",
+          "peak_z": 0.2
+        },
+        "pct_late": {
+          "baseline": 13.25,
+          "event_mean": 10.84,
+          "change": -2.407,
+          "unit": "percentage points",
+          "peak_z": 0.3
+        }
+      },
+      "hypothesis": "Orders fell while delivery and review signals stayed normal; these signals do not explain the drop.",
+      "recommendation": "Check whether the drop is across all product categories or only some, and look for external disruptions in these weeks.",
+      "context": {
+        "avg_score": {
+          "history_median": 4.1,
+          "gap_vs_history": -0.07,
+          "worse_than_history": false
+        },
+        "pct_late": {
+          "history_median": 5.09,
+          "gap_vs_history": 5.75,
+          "worse_than_history": true
+        }
+      },
+      "caveat": "pct_late did not change versus the previous 12 weeks, but is still worse than the longer history (history median 5.09, event 10.84)."
+    },
+    {
+      "id": 7,
+      "start": "2018-08-19",
+      "end": "2018-08-19",
+      "weeks": 1,
+      "severity": "LOW",
+      "confidence": "LOW",
+      "flagged": [
+        "pct_late"
+      ],
+      "facts": {
+        "orders": {
+          "baseline": 1447.5,
+          "event_mean": 1875.0,
+          "change": 0.295,
+          "unit": "relative",
+          "peak_z": -1.0
+        },
+        "avg_score": {
+          "baseline": 4.24,
+          "event_mean": 4.17,
+          "change": -0.074,
+          "unit": "points",
+          "peak_z": 0.7
+        },
+        "pct_late": {
+          "baseline": 3.2,
+          "event_mean": 13.95,
+          "change": 10.755,
+          "unit": "percentage points",
+          "peak_z": 3.8
+        }
+      },
+      "hypothesis": "Late deliveries rose without a clear review-score drop.",
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
+      "context": {
+        "avg_score": {
+          "history_median": 4.12,
+          "gap_vs_history": 0.05,
+          "worse_than_history": false
+        },
+        "pct_late": {
+          "history_median": 5.06,
+          "gap_vs_history": 8.89,
+          "worse_than_history": true
+        }
+      }
+    }
+  ]
+}

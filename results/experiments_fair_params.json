@@ -1,0 +1,17 @@
+{
+  "dataset": "Olist weekly signals 2017-03 to 2018-08",
+  "baseline_window_weeks": 12,
+  "min_periods": 8,
+  "orders_transform": "log",
+  "scale_floors": {
+    "avg_score": 0.05,
+    "pct_late": 0.01
+  },
+  "alert_rule": "any z>3 or at least two z>2",
+  "injection": {
+    "demand_30": "orders x0.7 for 2 weeks",
+    "fulfil_weak": "score and late worsen 2.5 local noise units for 2 weeks",
+    "fulfil_strong": "same at 4 noise units"
+  },
+  "scoring": "only start weeks with no real alert in the window (per experiment)"
+}
