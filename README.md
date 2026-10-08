@@ -14,6 +14,7 @@ Olist Brazilian e-commerce dataset (Kaggle). Usable window: 2017-03 to 2018-08.
 Download it into `data/raw/olist/`.
 
 ## Run
+To just view the dashboard, skip the two python steps. The results are already in data/processed/.
 ```
 pip install -r requirements.txt
 python src\investigate.py
