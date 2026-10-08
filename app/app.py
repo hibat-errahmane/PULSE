@@ -55,7 +55,8 @@ if inv[pick]["investigated"]:
     for col, name in zip(cols, ("regions", "categories", "sellers")):
         col.markdown(f"**Top {name}**")
         for g in inv[pick][name]["strongest_abnormal_change"]:
-            col.write(f"- {g['group'][:12]}: {g['late_base_pct']}% to {g['late_event_pct']}% "
+            label = g['group'][:8] if name == "sellers" else g['group']
+            col.write(f"- {label}: {g['late_base_pct']}% to {g['late_event_pct']}% "
                       f"({g['excess_share_pct']}% of excess late)")
     if r.get("repeat_sellers"):
         st.warning("Repeat offender sellers: " + ", ".join(s[:8] for s in r["repeat_sellers"]))
