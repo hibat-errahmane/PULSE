@@ -34,19 +34,7 @@
         }
       },
       "hypothesis": "Late deliveries rose without a clear review-score drop.",
-      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
-      "context": {
-        "avg_score": {
-          "history_median": 4.12,
-          "gap_vs_history": 0.04,
-          "worse_than_history": false
-        },
-        "pct_late": {
-          "history_median": 3.47,
-          "gap_vs_history": 4.92,
-          "worse_than_history": false
-        }
-      }
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet)."
     },
     {
       "id": 2,
@@ -82,19 +70,7 @@
         }
       },
       "hypothesis": "Late deliveries rose without a clear review-score drop.",
-      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
-      "context": {
-        "avg_score": {
-          "history_median": 4.13,
-          "gap_vs_history": 0.0,
-          "worse_than_history": false
-        },
-        "pct_late": {
-          "history_median": 3.5,
-          "gap_vs_history": 3.11,
-          "worse_than_history": false
-        }
-      }
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet)."
     },
     {
       "id": 3,
@@ -131,19 +107,7 @@
         }
       },
       "hypothesis": "Late deliveries rose and review scores fell together while orders did not drop; delivery problems may be hurting customer satisfaction.",
-      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
-      "context": {
-        "avg_score": {
-          "history_median": 4.13,
-          "gap_vs_history": -0.09,
-          "worse_than_history": false
-        },
-        "pct_late": {
-          "history_median": 3.53,
-          "gap_vs_history": 2.0,
-          "worse_than_history": false
-        }
-      }
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet)."
     },
     {
       "id": 4,
@@ -180,19 +144,7 @@
         }
       },
       "hypothesis": "Late deliveries rose and review scores fell together while orders did not drop; delivery problems may be hurting customer satisfaction.",
-      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
-      "context": {
-        "avg_score": {
-          "history_median": 4.13,
-          "gap_vs_history": -0.26,
-          "worse_than_history": true
-        },
-        "pct_late": {
-          "history_median": 3.75,
-          "gap_vs_history": 11.34,
-          "worse_than_history": true
-        }
-      }
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet)."
     },
     {
       "id": 5,
@@ -229,19 +181,7 @@
         }
       },
       "hypothesis": "Late deliveries rose and review scores fell together while orders did not drop; delivery problems may be hurting customer satisfaction.",
-      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
-      "context": {
-        "avg_score": {
-          "history_median": 4.1,
-          "gap_vs_history": -0.44,
-          "worse_than_history": true
-        },
-        "pct_late": {
-          "history_median": 4.39,
-          "gap_vs_history": 17.34,
-          "worse_than_history": true
-        }
-      }
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet)."
     },
     {
       "id": 6,
@@ -277,20 +217,7 @@
         }
       },
       "hypothesis": "Orders fell while delivery and review signals stayed normal; these signals do not explain the drop.",
-      "recommendation": "Check whether the drop is across all product categories or only some, and look for external disruptions in these weeks.",
-      "context": {
-        "avg_score": {
-          "history_median": 4.1,
-          "gap_vs_history": -0.07,
-          "worse_than_history": false
-        },
-        "pct_late": {
-          "history_median": 5.09,
-          "gap_vs_history": 5.75,
-          "worse_than_history": true
-        }
-      },
-      "caveat": "pct_late did not change versus the previous 12 weeks, but is still worse than the longer history (history median 5.09, event 10.84)."
+      "recommendation": "Check whether the drop is across all product categories or only some, and look for external disruptions in these weeks."
     },
     {
       "id": 7,
@@ -326,19 +253,7 @@
         }
       },
       "hypothesis": "Late deliveries rose without a clear review-score drop.",
-      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet).",
-      "context": {
-        "avg_score": {
-          "history_median": 4.12,
-          "gap_vs_history": 0.05,
-          "worse_than_history": false
-        },
-        "pct_late": {
-          "history_median": 5.06,
-          "gap_vs_history": 8.89,
-          "worse_than_history": true
-        }
-      }
+      "recommendation": "Check the late-delivery rate by seller and by customer region for these weeks (not computed yet)."
     }
   ]
 }

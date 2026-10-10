@@ -1,4 +1,4 @@
-﻿import sys
+import sys
 import warnings; warnings.filterwarnings("ignore", category=DeprecationWarning)
 import numpy as np
 import pandas as pd
@@ -71,7 +71,7 @@ def drill(f, key, start, end):
     t["excess_late"] = t["late_event"] - t["n_event"] * t["rate_base"].fillna(base_rate_all)
     excess_total = t["excess_late"].clip(lower=0).sum()
     t["excess_share_pct"] = 100 * t["excess_late"].clip(lower=0) / excess_total
-    t["excess_share_pct"] = 100 * t["excess_late"].clip(lower=0) / excess_total
+
 
     def status(r):
         if r["n_event"] < MIN_SHOW:
